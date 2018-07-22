@@ -57,4 +57,14 @@ class UserDefaultViewController: UIViewController, UITableViewDelegate,
         return arr.count
     }
     
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete {
+            arr.remove(at: indexPath.row)
+            
+            //削除した後の配列を保存
+            UserDefaults.standard.set(arr, forKey: "arr")
+            
+            tableView.reloadData()
+        }
+    }
 }
