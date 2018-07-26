@@ -21,6 +21,7 @@ class ViewController: UIViewController, UIWebViewDelegate {
         let url = URL(string: "https://google.co.jp")
         let urlRequest = URLRequest(url: url!)
         webView.loadRequest(urlRequest)
+        
 
     }
 
