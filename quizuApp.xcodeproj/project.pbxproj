@@ -21,6 +21,9 @@
 		0DEA458A21049F5C00CA6EC7 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEA458921049F5C00CA6EC7 /* CameraViewController.swift */; };
 		0DEA458D2104A09800CA6EC7 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DEA458B2104A09800CA6EC7 /* camera.png */; };
 		0DEA458E2104A09800CA6EC7 /* album.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DEA458C2104A09800CA6EC7 /* album.png */; };
+		0DFB1EF8210A0F4A001FD7AF /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFB1EF7210A0F4A001FD7AF /* CollectionViewController.swift */; };
+		0DFB1EFB210A119F001FD7AF /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFB1EF9210A119F001FD7AF /* CustomCell.swift */; };
+		0DFB1EFC210A119F001FD7AF /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DFB1EFA210A119F001FD7AF /* CustomCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +43,9 @@
 		0DEA458921049F5C00CA6EC7 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		0DEA458B2104A09800CA6EC7 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
 		0DEA458C2104A09800CA6EC7 /* album.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = album.png; sourceTree = "<group>"; };
+		0DFB1EF7210A0F4A001FD7AF /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		0DFB1EF9210A119F001FD7AF /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		0DFB1EFA210A119F001FD7AF /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +87,10 @@
 				0DEA45832104895100CA6EC7 /* ScoreViewController.swift */,
 				0DEA45872104968300CA6EC7 /* UserDefaultViewController.swift */,
 				0DEA458921049F5C00CA6EC7 /* CameraViewController.swift */,
+				0DFB1EF7210A0F4A001FD7AF /* CollectionViewController.swift */,
 				0DEA456E2104836C00CA6EC7 /* Main.storyboard */,
+				0DFB1EF9210A119F001FD7AF /* CustomCell.swift */,
+				0DFB1EFA210A119F001FD7AF /* CustomCell.xib */,
 				0DEA45742104836E00CA6EC7 /* Assets.xcassets */,
 				0DEA45762104836E00CA6EC7 /* LaunchScreen.storyboard */,
 				0DEA45792104836E00CA6EC7 /* Info.plist */,
@@ -151,6 +160,7 @@
 			files = (
 				0DEA458621048D0600CA6EC7 /* wordList.plist in Resources */,
 				0DEA45782104836E00CA6EC7 /* LaunchScreen.storyboard in Resources */,
+				0DFB1EFC210A119F001FD7AF /* CustomCell.xib in Resources */,
 				0DEA45752104836E00CA6EC7 /* Assets.xcassets in Resources */,
 				0DEA45702104836C00CA6EC7 /* Main.storyboard in Resources */,
 				0DEA458D2104A09800CA6EC7 /* camera.png in Resources */,
@@ -165,7 +175,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DFB1EF8210A0F4A001FD7AF /* CollectionViewController.swift in Sources */,
 				0DEA456D2104836C00CA6EC7 /* ViewController.swift in Sources */,
+				0DFB1EFB210A119F001FD7AF /* CustomCell.swift in Sources */,
 				0DEA45822104892900CA6EC7 /* QuestionViewController.swift in Sources */,
 				0DEA4580210488DB00CA6EC7 /* TitleViewController.swift in Sources */,
 				0DEA456B2104836C00CA6EC7 /* AppDelegate.swift in Sources */,
